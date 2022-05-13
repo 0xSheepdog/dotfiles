@@ -1,4 +1,4 @@
-# powerline stuff
+" powerline stuff
 python3 from powerline.vim import setup as powerline_setup
 python3 powerline_setup()
 python3 del powerline_setup
@@ -6,8 +6,8 @@ set laststatus=2 " Always display the statusline in all windows
 set showtabline=2 " Always display the tabline, even if there is only one tab
 set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
 
-# Terminal color stuff
+" Terminal color stuff
 set t_Co=256
 
-# Ansible/Yaml stuff
+" Ansible/Yaml stuff
 autocmd FileType yaml setlocal ai ts=2 sw=2 et

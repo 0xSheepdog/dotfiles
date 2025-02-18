@@ -28,6 +28,7 @@ unset rc
 
 alias vsh='/usr/bin/sudo /usr/bin/virsh'
 alias freedisk='/usr/bin/df -fT | grep -v -e tmpfs -e overlay -e nfs'
+alias lvm-show-ids="grep -B 1 --no-group-separator id /etc/lvm/archive/"
 
 ## Powerline start
 #if [ -f `which powerline-daemon` ]; then
